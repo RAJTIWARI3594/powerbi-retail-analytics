@@ -1,0 +1,9 @@
+// Create ONE calculated table named Calendar (Modeling > New table).
+Calendar =
+ADDCOLUMNS (
+    CALENDAR ( MIN ( Sales[Date] ), MAX ( Sales[Date] ) ),
+    "Year", YEAR ( [Date] ),
+    "MonthNo", MONTH ( [Date] ),
+    "Month", FORMAT ( [Date], "MMM" ),
+    "YearMonth", FORMAT ( [Date], "yyyy-MM" )
+)

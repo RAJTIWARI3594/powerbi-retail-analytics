@@ -1,0 +1,28 @@
+{
+  "powerbi_reference": {
+    "regions_checked": {
+      "All": {
+        "displayed_sales": "\u20b936,30,970",
+        "orders": 720
+      },
+      "North": {
+        "displayed_sales": "\u20b910,11,275",
+        "orders": 192
+      },
+      "South": {
+        "displayed_sales": "\u20b97,28,150",
+        "orders": 145
+      },
+      "East": {
+        "displayed_sales": "\u20b99,99,510",
+        "orders": 209
+      },
+      "West": {
+        "displayed_sales": "\u20b98,92,035",
+        "orders": 174
+      }
+    },
+    "mobile_overflow": false
+  },
+  "javascript_page_errors": []
+}

@@ -1,0 +1,11 @@
+// After measures exist, run in DAX query view. Clear report filters for all-data totals.
+EVALUATE
+ROW (
+    "Net Sales", [Net Sales],
+    "Total Cost", [Total Cost],
+    "Gross Profit", [Gross Profit],
+    "Gross Margin", [Gross Margin %],
+    "Orders", [Orders],
+    "Units", [Units Sold],
+    "Average Order Value", [Average Order Value]
+)

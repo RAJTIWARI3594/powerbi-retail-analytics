@@ -1,0 +1,7 @@
+{
+  "name": "Retail Pulse",
+  "dataColors": ["#087F8C", "#F0AA55", "#5779A0", "#70BBA3", "#A384B5", "#DF7F76"],
+  "background": "#F5F7FA",
+  "foreground": "#142D4E",
+  "tableAccent": "#087F8C"
+}

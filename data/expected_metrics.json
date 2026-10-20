@@ -1,0 +1,49 @@
+{
+  "all": {
+    "net_sales": 3630970.0,
+    "cost": 2134570,
+    "gross_profit": 1496400.0,
+    "margin": 0.412121278886909,
+    "orders": 720,
+    "units": 3126,
+    "aov": 5043.013888888889
+  },
+  "regions": {
+    "North": {
+      "net_sales": 1011275.0,
+      "cost": 592470,
+      "gross_profit": 418805.0,
+      "margin": 0.41413562087463845,
+      "orders": 192,
+      "units": 826,
+      "aov": 5267.057291666667
+    },
+    "South": {
+      "net_sales": 728150.0,
+      "cost": 425250,
+      "gross_profit": 302900.0,
+      "margin": 0.415985717228593,
+      "orders": 145,
+      "units": 666,
+      "aov": 5021.724137931034
+    },
+    "East": {
+      "net_sales": 999510.0,
+      "cost": 589300,
+      "gross_profit": 410210.0,
+      "margin": 0.41041110143970544,
+      "orders": 209,
+      "units": 880,
+      "aov": 4782.344497607655
+    },
+    "West": {
+      "net_sales": 892035.0,
+      "cost": 527550,
+      "gross_profit": 364485.0,
+      "margin": 0.4085994383628445,
+      "orders": 174,
+      "units": 754,
+      "aov": 5126.637931034483
+    }
+  }
+}

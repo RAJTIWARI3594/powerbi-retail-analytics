@@ -1,0 +1,23 @@
+// Create EACH measure individually in Sales (Modeling > New measure).
+// Do not paste this entire file as one measure.
+Net Sales = SUM ( Sales[Revenue] )
+
+Total Cost = SUM ( Sales[Cost] )
+
+Gross Profit = [Net Sales] - [Total Cost]
+
+Gross Margin % = DIVIDE ( [Gross Profit], [Net Sales], 0 )
+
+Orders = DISTINCTCOUNT ( Sales[OrderID] )
+
+Units Sold = SUM ( Sales[Units] )
+
+Average Order Value = DIVIDE ( [Net Sales], [Orders], 0 )
+
+Previous Month Sales =
+CALCULATE ( [Net Sales], DATEADD ( 'Calendar'[Date], -1, MONTH ) )
+
+// Blank when there is no comparable previous period (not a misleading zero).
+MoM Sales % =
+VAR Previous = [Previous Month Sales]
+RETURN IF ( ISBLANK ( Previous ) || Previous = 0, BLANK (), DIVIDE ( [Net Sales] - Previous, Previous ) )
