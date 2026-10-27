@@ -70,3 +70,7 @@ This is an HTML reference screenshot, not Power BI output.
 
 
 See [VALIDATION.md](VALIDATION.md) for checks performed and untested limits.
+
+## Live HTML reference
+
+The self-contained interactive reference preview is hosted at <https://rajtiwari3594.github.io/powerbi-retail-analytics/>. This is a browser-based HTML visualization of synthetic data, not a native Power BI report; the `.pbix` build steps and validation limits above still apply.
